@@ -1,0 +1,106 @@
+{
+  "company": {
+    "name": "Upview Technologies",
+    "tagline": "We build products where AI does the work.",
+    "description": "Upview Technologies partners with founders and product teams to design, engineer, and deploy intelligent software that solves real problems, not just software with an AI badge on it.",
+    "url": "https://upview.tech/ai-portfolio"
+  },
+  "testimonial": {
+    "quote": "We developed a great relationship with team Upview and their dedication to our products is evident.",
+    "author": "Tony Idiculla",
+    "role": "Co-Founder, FURFIELD"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Oral Connect",
+      "subtitle": "Dental CRM",
+      "type": "AI Integration",
+      "link": "https://upview.tech/ai-portfolio",
+      "video": "/videos/oral_connect.mp4",
+      "image": "/images/oral_connect.jpg",
+      "tech": ["AI", "CRM", "Automation"],
+      "desc": "An AI-driven dental CRM that automates lead management."
+    },
+    {
+      "id": 2,
+      "title": "FURFIELD",
+      "subtitle": "Pet-care platform",
+      "type": "Web App",
+      "link": "https://upview.tech/ai-portfolio",
+      "video": "/videos/furfield.mp4",
+      "image": "/images/furfield.jpg",
+      "tech": ["Platform", "Multi-stakeholder"],
+      "desc": "A multi-stakeholder pet-care platform."
+    },
+    {
+      "id": 3,
+      "title": "LEAP Strategy Partners",
+      "subtitle": "AI/ML Matching Engine",
+      "type": "AI Engine",
+      "link": "https://upview.tech/ai-portfolio",
+      "video": "/videos/leap.mp4",
+      "image": "/images/leap.jpg",
+      "tech": ["AI/ML", "Matching Algorithm"],
+      "desc": "An AI/ML engine that precision-matches CEOs with advisory panels."
+    },
+    {
+      "id": 4,
+      "title": "Kompete",
+      "subtitle": "Athlete workout app",
+      "type": "Mobile App",
+      "link": "https://upview.tech/ai-portfolio",
+      "video": "/videos/kompete.mp4",
+      "image": "/images/kompete.jpg",
+      "tech": ["Computer Vision", "AI"],
+      "desc": "Camera-based AI analyses athlete workout app."
+    },
+    {
+      "id": 5,
+      "title": "Handybot",
+      "subtitle": "AI Agent",
+      "type": "AI Agent",
+      "link": "https://upview.tech/ai-portfolio",
+      "video": "/videos/handybot.mp4",
+      "image": "/images/handybot.jpg",
+      "tech": ["AI Agent", "Workflow"],
+      "desc": "An AI agent that helps your day-to-day handyman works."
+    },
+    {
+      "id": 6,
+      "title": "The Lawbook",
+      "subtitle": "Legal CRM",
+      "type": "AI Integration",
+      "link": "https://upview.tech/ai-portfolio",
+      "video": "/videos/lawbook.mp4",
+      "image": "/images/lawbook.jpg",
+      "tech": ["AI", "CRM", "LegalTech"],
+      "desc": "An AI-driven dental CRM that automates lead management."
+    },
+    {
+      "id": 7,
+      "title": "CPM Performance Dashboard",
+      "subtitle": "Strategizer",
+      "type": "Dashboard",
+      "link": "https://upview.tech/ai-portfolio",
+      "video": "/videos/cpm.mp4",
+      "image": "/images/cpm.jpg",
+      "tech": ["Analytics", "AI", "Real-time"],
+      "desc": "An AI-powered performance dashboard that provides real-time answers."
+    }
+  ],
+  "services": [
+    {
+      "title": "MVP from Your Vibe-Coded Draft",
+      "desc": "You've built something on Bolt, Lovable, or Cursor. We take that prototype and engineer it into a production-ready, scalable product with real AI infrastructure underneath."
+    },
+    {
+      "title": "Extended Development Team",
+      "desc": "Integrate senior engineers, AI specialists, and designers into your existing team. We work inside your workflow, tools, and culture—no overhead, just output."
+    },
+    {
+      "title": "MVP Built From Scratch",
+      "desc": "Start with an idea. We handle discovery, UX design, engineering, AI integration, QA, and go-to-market launch—delivering a complete, investor-ready MVP on a defined scope."
+    }
+  ]
+}

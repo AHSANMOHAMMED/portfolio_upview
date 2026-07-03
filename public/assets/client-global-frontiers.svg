@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309 69" role="img" aria-labelledby="title">
+  <title id="title">Global Frontiers</title>
+  <g fill="#6f6f6f">
+    <clipPath id="globe-clip">
+      <circle cx="36" cy="34.5" r="28" />
+    </clipPath>
+    <circle cx="36" cy="34.5" r="28" opacity=".16" />
+    <g clip-path="url(#globe-clip)">
+      <path d="M4 20c19 3 39-1 64-14v9C45 27 24 31 4 28z" />
+      <path d="M3 35c22 2 44-2 66-12v9C47 42 24 45 3 42z" />
+      <path d="M8 50c18 1 39-3 58-12v9C48 56 29 59 12 57z" />
+    </g>
+    <text x="75" y="35" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="-.9">Global Frontiers</text>
+    <text x="77" y="50" font-family="Arial, Helvetica, sans-serif" font-size="8.8" font-weight="700" letter-spacing="1.5">PARTNERS IN INVESTMENTS</text>
+  </g>
+</svg>
