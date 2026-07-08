@@ -49,14 +49,14 @@
 html {
   background: var(--white);
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 body {
   background: var(--white);
   color: var(--ink);
   font-family: var(--font-inter), Arial, sans-serif;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 a {
   color: inherit;
@@ -1284,4 +1284,71 @@ a {
   .footer-divider {
     display: none;
   }
+}
+
+/* Cinematic Brand tokens */
+:root {
+  --accent:       #f7931e;
+  --accent-hover: #e07b10;
+  --text-small: 0.72rem;
+  --text-body:  clamp(0.9rem, 1.2vw, 1.05rem);
+}
+
+.landing-page > .full-bleed-section { max-width: none; }
+
+/* --- Dark Theme Overrides for Case Study Page --- */
+.case-page .before-after-section {
+  --section-bg: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+.case-page .compare-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.case-page .compare-before {
+  border-color: rgba(255, 71, 87, 0.4);
+  background: rgba(255, 71, 87, 0.05);
+}
+.case-page .compare-after {
+  border-color: rgba(0, 200, 83, 0.4);
+  background: rgba(0, 200, 83, 0.05);
+}
+.case-page .compare-card p {
+  color: rgba(255, 255, 255, 0.85);
+}
+.case-page .metric-card {
+  background: rgba(255, 255, 255, 0.08);
+}
+.case-page .metric-card strong {
+  color: #fff;
+}
+.case-page .metric-card p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.case-page .solution-section {
+  background: transparent;
+}
+.case-page h2, .case-page h3 {
+  color: #fff;
+}
+.case-page p {
+  color: rgba(255, 255, 255, 0.85);
+}
+.case-page .solution-copy p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* --- Fix for Section Label in Dark Mode --- */
+.case-page .section-label {
+  background: rgba(255, 255, 255, 0.1);
+}
+.case-page .section-label p {
+  color: #fff;
+}
+.case-page .section-label-inverse {
+  background: rgba(255, 255, 255, 0.15);
+}
+.case-page .section-label-inverse p {
+  color: #fff;
 }

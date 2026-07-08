@@ -1,0 +1,843 @@
+{
+  "oral-connect": {
+    "slug": "oral-connect",
+    "hero": {
+      "title": "Oral Connect",
+      "description": "An AI-driven dental CRM that automates lead management."
+    },
+    "problem": {
+      "intro": "ProblemBefore OralConnect, dental clinics were haemorrhaging leads and revenue through broken manual processes.",
+      "cards": [
+        {
+          "title": "No visibility into lead pipeline",
+          "description": "Enquiries arrived via phone, email, and web forms with no unified system to track them. Leads routinely fell through the cracks."
+        },
+        {
+          "title": "Slow, manual follow-ups",
+          "description": "Reception staff manually called and emailed each enquiry - often too late. Studies show clinics that respond within 5 minutes convert 9x more leads."
+        },
+        {
+          "title": "Scheduling chaos across branches",
+          "description": "Appointment management across multiple clinic locations relied on phone calls, sticky notes, and disconnected spreadsheets."
+        },
+        {
+          "title": "Zero data on conversion performance",
+          "description": "Owners had no way to understand where leads dropped off, which staff performed well, or where the bottlenecks were in the patient journey."
+        }
+      ]
+    },
+    "productBand": {
+      "type": "desktop",
+      "image": "/assets/oral-main.png"
+    },
+    "solution": {
+      "rows": [
+        {
+          "title": "Traffic Light Based AI Lead Scoring Engine",
+          "paragraphs": [
+            "Every inbound enquiry is automatically scored by urgency, treatment type, and conversion probability. High-intent leads are surfaced and prioritised instantly - no manual triage required."
+          ],
+          "video": "/assets/videos/oral-lead-scoring.mp4",
+          "poster": "/assets/oral-main.png",
+          "accent": "media-accent-orange",
+          "reverse": false
+        },
+        {
+          "title": "AI Next-Best-Step Recommendations",
+          "paragraphs": [
+            "OralConnect uses AI to automatically suggest the next best action required to convert each lead into a patient. Based on the lead status, inquiry details, previous interactions, and patient intent, the system recommends what should happen next, whether that is a call, follow-up message, appointment reminder, or escalation.",
+            "This reduces the workload for call center agents and helps them focus on meaningful conversations instead of manually deciding every step."
+          ],
+          "video": "/assets/videos/oral-next-best-step.mp4",
+          "poster": "/assets/oral-main.png",
+          "accent": "media-accent-purple",
+          "reverse": true
+        },
+        {
+          "title": "AI-Generated Lead Summary",
+          "paragraphs": [
+            "The system automatically generates a clear lead summary for every patient inquiry. This summary gives agents a quick understanding of the patient's interest, current status, communication history, urgency, and possible next action.",
+            "Instead of reading through scattered notes or previous messages, agents can understand the full lead context within seconds."
+          ],
+          "video": "/assets/videos/oral-lead-summary.mp4",
+          "poster": "/assets/oral-main.png",
+          "accent": "media-accent-orange",
+          "reverse": false
+        },
+        {
+          "title": "Automated Follow-Up Sequences",
+          "paragraphs": [
+            "AI triggers personalized follow-up messages via SMS and email at the optimal time, within minutes of an enquiry, with content tailored to the specific treatment the patient enquired about."
+          ],
+          "video": "/assets/videos/oral-follow-up.mp4",
+          "poster": "/assets/oral-main.png",
+          "accent": "media-accent-purple",
+          "reverse": true
+        },
+        {
+          "title": "AI-Prioritized Inbound Calling Queue",
+          "paragraphs": [
+            "OralConnect automatically lists leads for inbound calling and uses AI to prioritize them based on important attributes such as lead intent, urgency, response history, appointment likelihood, and time sensitivity.",
+            "The system helps prepare the dialing queue so agents know exactly who to call first, improving speed, consistency, and conversion performance."
+          ],
+          "video": "/assets/videos/oral-calling-queue.mp4",
+          "poster": "/assets/oral-main.png",
+          "accent": "media-accent-blue",
+          "reverse": false
+        }
+      ]
+    },
+    "beforeAfter": {
+      "before": [
+        "Manual phone and email follow-ups taking 24 - 48 hours.",
+        "No lead scoring, every enquiry treated equally.",
+        "Scheduling managed across disconnected spreadsheets and calls.",
+        "Owners flying blind with no conversion analytics."
+      ],
+      "after": [
+        "AI responds to every lead within minutes, automatically.",
+        "Enquiries scored by conversion likelihood and auto-prioritized.",
+        "Smart scheduling across all branches from a single interface.",
+        "Real-time dashboard showing full patient journey and drop-off points."
+      ],
+      "metrics": [
+        {
+          "value": "3x",
+          "label": "Faster patient response"
+        },
+        {
+          "value": "40%",
+          "label": "More lead-to-book conversions"
+        },
+        {
+          "value": "60%",
+          "label": "Reduction in admin work"
+        },
+        {
+          "value": "90%",
+          "label": "Scheduling automated"
+        }
+      ]
+    }
+  },
+  "furfield": {
+    "slug": "furfield",
+    "hero": {
+      "title": "FURFIELD",
+      "description": "An AI-powered pet-care platform that turns pet health data into smarter care decisions."
+    },
+    "problem": {
+      "intro": "ProblemPet-care information was fragmented across paper records, clinic notes, owner memory, WhatsApp messages, and disconnected service providers. Pet parents often noticed symptoms but did not know what they meant, while vets had limited context.",
+      "cards": [
+        {
+          "title": "Scattered pet health records",
+          "description": "Vaccinations, medical history, symptoms, vet visits, prescriptions, and lifestyle notes were stored in different places, making it difficult to understand the full health journey of a pet."
+        },
+        {
+          "title": "Pet parents lacked clear guidance",
+          "description": "Owners could observe changes in behavior, appetite, activity, or symptoms, but they did not always know whether to monitor, act immediately, or consult a vet."
+        },
+        {
+          "title": "Vet consultations started with limited context",
+          "description": "Clinics often had to depend on owner explanations during appointments, which made it harder to quickly understand patterns, previous issues, or recurring symptoms."
+        },
+        {
+          "title": "No intelligent care layer",
+          "description": "Pet-care workflows were mostly reactive. There was no AI layer to interpret data, identify patterns, suggest next steps, or support better care decisions."
+        }
+      ]
+    },
+    "productBand": {
+      "type": "phones",
+      "image": "/assets/furfield-1.png"
+    },
+    "solution": {
+      "rows": [
+        {
+          "title": "AI Pet Health Insights",
+          "paragraphs": [
+            "Upview designed an AI insight layer that helps interpret pet health data such as medical history, symptoms, lifestyle patterns, vaccination records, and owner observations. Instead of showing raw records only, FURFIELD can explain what matters and highlight areas that may need attention."
+          ],
+          "video": "/assets/videos/furfield-health-insights.mp4",
+          "poster": "/assets/furfield-1.png",
+          "accent": "media-accent-orange",
+          "reverse": false
+        },
+        {
+          "title": "Smart Symptom Interpretation",
+          "paragraphs": [
+            "FURFIELD helps pet parents understand symptoms more clearly by analyzing the pet's profile, previous records, and reported changes. The AI does not replace a vet, but it helps owners decide whether to monitor the issue, prepare for a consultation, or take faster action."
+          ],
+          "video": "/assets/videos/furfield-symptom-interpretation.mp4",
+          "poster": "/assets/furfield-2.png",
+          "accent": "media-accent-purple",
+          "reverse": true
+        },
+        {
+          "title": "Vet-Ready Health Summaries",
+          "paragraphs": [
+            "Upview introduced AI-generated summaries that organize important pet information before a vet consultation. This helps clinics quickly understand the pet's recent symptoms, health timeline, previous treatments, and owner concerns."
+          ],
+          "video": "/assets/videos/furfield-vet-summary.mp4",
+          "poster": "/assets/furfield-3.png",
+          "accent": "media-accent-orange",
+          "reverse": false
+        },
+        {
+          "title": "Bluetooth Collar Device Integration & AI Anomaly Detection",
+          "paragraphs": [
+            "FURFIELD connects with a smart pet collar through Bluetooth, allowing the mobile app to receive real-time pet health and activity data. The collar continuously captures key signals such as movement, activity levels, rest patterns, temperature-related indicators, and behavioral changes.",
+            "Added an AI analysis layer that monitors this live data and compares it against the pet's normal patterns. When the system detects unusual changes, FURFIELD can quickly alert pet parents so they can take action earlier."
+          ],
+          "video": "/assets/videos/furfield-collar.mp4",
+          "poster": "/assets/furfield-collar.png",
+          "accent": "media-accent-soft",
+          "reverse": true
+        }
+      ]
+    },
+    "beforeAfter": {
+      "before": [
+        "Performance testing depended on manual coach observation.",
+        "Movement quality was hard to validate objectively.",
+        "Readiness data was disconnected from training decisions.",
+        "Athlete progress was difficult to compare over time.",
+        "Parents and coaches had limited visibility into daily habits and consistency."
+      ],
+      "after": [
+        "Camera-based analysis supports objective movement validation.",
+        "AI-assisted testing produces structured performance results.",
+        "Readiness ratings help guide smarter workload decisions.",
+        "Athlete progress becomes measurable across tests and training cycles.",
+        "Coaches and parents can track performance, habits, and readiness in one connected ecosystem."
+      ],
+      "metrics": [
+        {
+          "value": "70%",
+          "label": "Less effort in athlete test review"
+        },
+        {
+          "value": "3x",
+          "label": "Faster athlete test result generation"
+        },
+        {
+          "value": "60%",
+          "label": "Better readiness visibility"
+        },
+        {
+          "value": "40%",
+          "label": "Less dependency on manual tracking"
+        }
+      ]
+    }
+  },
+  "leap-strategy-partner": {
+    "slug": "leap-strategy-partner",
+    "hero": {
+      "title": "LEAP Strategy Partner",
+      "description": "An AI-powered advisory matching platform for leadership and strategy decisions."
+    },
+    "problem": {
+      "intro": "ProblemLEAP Strategy team relied on fragmented tools, public LLMs, copied notes, spreadsheets, and manual report preparation to match CEOs and boards with the right advisory expertise.",
+      "cards": [
+        {
+          "title": "Manual advisor matching",
+          "description": "Matching CEOs, boards, and investors with the right former CEO advisors required manual review of experience, industry background, and leadership challenges."
+        },
+        {
+          "title": "Generic AI was not enough",
+          "description": "Public LLMs helped with research and drafting, but the team still had to copy, paste, reformat, validate, and adjust outputs manually."
+        },
+        {
+          "title": "Leadership data was scattered",
+          "description": "Assessment answers, advisor profiles, client requirements, reports, and strategic notes were spread across different tools with no unified intelligence layer."
+        },
+        {
+          "title": "Slow insight generation",
+          "description": "Creating summaries, recommendations, and advisory reports took time, making it difficult to scale a high-touch advisory process without increasing operational effort."
+        }
+      ]
+    },
+    "productBand": {
+      "type": "desktop",
+      "image": "/assets/leap-main.png"
+    },
+    "solution": {
+      "rows": [
+        {
+          "title": "Partner Extract & Complexity Matching",
+          "paragraphs": [
+            "Upview built an AI extraction layer that reads partner profiles, resumes, bios, advisory history, industry experience, leadership background, and functional expertise. The system converts unstructured partner information into structured intelligence.",
+            "AI then identifies complexity signals such as executive experience, transformation exposure, industry depth, scaling experience, crisis management, board advisory strength, and operational leadership maturity. This allows LEAP to understand not just who the partner is, but what level and type of complexity they are best suited for."
+          ],
+          "video": "/assets/videos/leap-partner-extract.mp4",
+          "poster": "/assets/leap-main.png",
+          "accent": "media-accent-blue",
+          "reverse": false
+        },
+        {
+          "title": "Client Artifacts & Complexity Analyzing",
+          "paragraphs": [
+            "The platform analyzes client intake forms, strategy briefs, meeting notes, and business challenge descriptions to extract the real advisory need. Instead of treating every client request as simple text, AI structures the client's goals, pressure points, business stage, industry context, leadership gaps, and decision complexity."
+          ],
+          "video": "/assets/videos/leap-client-artifacts.mp4",
+          "poster": "/assets/leap-main.png",
+          "accent": "media-accent-orange",
+          "reverse": true
+        },
+        {
+          "title": "Ad-Hoc Explorer To Extract Data",
+          "paragraphs": [
+            "An AI-powered ad-hoc explorer that allows LEAP teams to ask questions and extract useful data from partner profiles, client records, briefs, and advisory knowledge.",
+            "Instead of manually searching through documents, users can ask natural-language questions such as, \"Which partners have led healthcare transformation?\" or \"Which clients need board-level strategic support?\" The AI explorer helps surface relevant information faster and supports better decision-making during advisory planning."
+          ],
+          "video": "/assets/videos/leap-adhoc-explorer.mp4",
+          "poster": "/assets/leap-main.png",
+          "accent": "media-accent-purple",
+          "reverse": false
+        },
+        {
+          "title": "Find Matching Partner & Create Panel List",
+          "paragraphs": [
+            "The final AI layer compares partner intelligence with client complexity and recommends the most suitable advisory partners. The system ranks partners based on relevance, expertise depth, industry alignment, leadership experience, and complexity fit.",
+            "LEAP can then generate a panel list with recommended partners, match reasons, strengths, and supporting notes. This helps the team move from manual shortlisting to a faster, more explainable advisory matching process."
+          ],
+          "video": "/assets/videos/leap-panel-list.mp4",
+          "poster": "/assets/leap-main.png",
+          "accent": "media-accent-orange",
+          "reverse": true
+        }
+      ]
+    },
+    "beforeAfter": {
+      "before": [
+        "Advisor matching was handled manually.",
+        "Leadership assessments were difficult to convert into structured recommendations.",
+        "Public AI tools required copy-paste, reformatting, and human cleanup.",
+        "Reports and client summaries took significant manual effort.",
+        "Strategic knowledge lived across disconnected tools and documents."
+      ],
+      "after": [
+        "AI extracts partner expertise and creates structured complexity profiles.",
+        "Client briefs are analyzed into clear advisory needs and complexity signals.",
+        "Teams can explore partner and client data using natural-language queries.",
+        "AI recommends matching partners based on relevance and complexity fit.",
+        "Panel lists can be generated faster with match reasons and supporting context."
+      ],
+      "metrics": [
+        {
+          "value": "5x",
+          "label": "Faster advisor shortlisting"
+        },
+        {
+          "value": "90%",
+          "label": "Reduction in manual report preparation"
+        },
+        {
+          "value": "60%",
+          "label": "Less copy-paste and reformat work"
+        },
+        {
+          "value": "75%",
+          "label": "Faster assessment-to-insight workflow"
+        }
+      ]
+    }
+  },
+  "kompete": {
+    "slug": "kompete",
+    "hero": {
+      "title": "Kompete App",
+      "description": "An AI-powered athletic performance and readiness platform."
+    },
+    "problem": {
+      "intro": "ProblemAthletes struggled to see clear progress, while coaches lacked one reliable system to understand movement quality, readiness, and training consistency.",
+      "cards": [
+        {
+          "title": "Subjective performance testing",
+          "description": "Coaches had to judge movement, form, and test quality manually, which made results inconsistent across athletes and sessions."
+        },
+        {
+          "title": "No camera-based validation",
+          "description": "Athlete tests were difficult to verify objectively without a system that could analyze movement and body positioning."
+        },
+        {
+          "title": "Fragmented readiness data",
+          "description": "Sleep, soreness, stress, motivation, and energy were not connected to performance outcomes, making workload decisions harder."
+        },
+        {
+          "title": "Limited visibility for coaches and parents",
+          "description": "Training progress, daily habits, test results, and readiness indicators were scattered, reducing accountability and long-term tracking."
+        }
+      ]
+    },
+    "productBand": {
+      "type": "phones",
+      "image": "/assets/kompete-1.png"
+    },
+    "solution": {
+      "rows": [
+        {
+          "title": "Camera-Based Movement Analysis",
+          "paragraphs": [
+            "Upview implemented a camera-driven testing workflow that analyzes athlete movement in real time. The system supports body-position validation, motion accuracy detection, and automated performance scoring, helping turn manual assessments into measurable analytics."
+          ],
+          "video": "/assets/videos/kompete-movement-analysis.mp4",
+          "poster": "/assets/kompete-2.png",
+          "accent": "media-accent-orange",
+          "reverse": false
+        },
+        {
+          "title": "AI-Assisted Test Validation",
+          "paragraphs": [
+            "Kompete evaluates recorded performance tests and generates structured results such as certification status, readiness ratings, and form analysis breakdowns. This helps create more consistent evaluations and reduces the bias that can come from purely manual review."
+          ],
+          "video": "/assets/videos/kompete-test-validation.mp4",
+          "poster": "/assets/kompete-3.png",
+          "accent": "media-accent-purple",
+          "reverse": true
+        },
+        {
+          "title": "AI Insights Across the App",
+          "paragraphs": [
+            "Upview integrated AI insights throughout Kompete, not as a single isolated feature. Whether an athlete is viewing a workout, daily plan, testing result, or dashboard, the system can explain what the data means, highlight important patterns, and suggest smarter next actions."
+          ],
+          "video": "/assets/videos/kompete-ai-insights.mp4",
+          "poster": "/assets/kompete-1.png",
+          "accent": "media-accent-orange",
+          "reverse": false
+        },
+        {
+          "title": "Koach AI Companion",
+          "paragraphs": [
+            "Kompete includes Koach AI, a personalized AI agent built around each athlete's training journey. Koach AI helps athletes understand their workouts, ask performance-related questions, receive guidance, stay motivated, and make better decisions based on their goals, readiness, and progress."
+          ],
+          "video": "/assets/videos/kompete-koach.mp4",
+          "poster": "/assets/kompete-3.png",
+          "accent": "media-accent-blue",
+          "reverse": true
+        }
+      ]
+    },
+    "beforeAfter": {
+      "before": [
+        "Performance testing depended on manual coach observation.",
+        "Movement quality was hard to validate objectively.",
+        "Readiness data was disconnected from training decisions.",
+        "Athlete progress was difficult to compare over time.",
+        "Parents and coaches had limited visibility into daily habits and consistency."
+      ],
+      "after": [
+        "Camera-based analysis supports objective movement validation.",
+        "AI-assisted testing produces structured performance results.",
+        "Readiness ratings help guide smarter workload decisions.",
+        "Athlete progress becomes measurable across tests and training cycles.",
+        "Coaches and parents can track performance, habits, and readiness in one connected ecosystem."
+      ],
+      "metrics": [
+        {
+          "value": "70%",
+          "label": "Less effort in athlete test review"
+        },
+        {
+          "value": "3x",
+          "label": "Faster athlete test result generation"
+        },
+        {
+          "value": "60%",
+          "label": "Better readiness visibility"
+        },
+        {
+          "value": "40%",
+          "label": "Less dependency on manual tracking"
+        }
+      ]
+    }
+  },
+  "handybot": {
+    "slug": "handybot",
+    "hero": {
+      "title": "HandyBot",
+      "description": "A specialized AI handyman assistant for everyday home repair support."
+    },
+    "problem": {
+      "intro": "ProblemMost people do not know where to start when something breaks at home. Generic search results and broad AI answers can be confusing, too technical, or not suitable for the user's location, tools, or situation.",
+      "cards": [
+        {
+          "title": "Generic answers were not enough",
+          "description": "Users needed handyman-specific help, not general AI responses. A normal chatbot could explain broad concepts, but it could not always guide users through real home repair situations in a clear and practical way."
+        },
+        {
+          "title": "Less tech-savvy users needed simpler guidance",
+          "description": "Many users struggled to search, compare answers, understand technical terms, or decide what to do next. They needed step-by-step help that felt easy to follow."
+        },
+        {
+          "title": "Location context was missing",
+          "description": "Handyman advice can depend on location, available services, local technician access, common repair options, and nearby support. Generic answers did not consider where the user was."
+        },
+        {
+          "title": "Users did not know when to call a technician",
+          "description": "Some issues can be fixed at home, while others need a professional. Users needed a system that could guide them first, then connect them with nearby technicians when the task became too difficult or unsafe."
+        }
+      ]
+    },
+    "productBand": {
+      "type": "desktop",
+      "image": "/assets/handybot-main.png"
+    },
+    "solution": {
+      "rows": [
+        {
+          "title": "Handyman-Specialized AI Agent",
+          "paragraphs": [
+            "Upview designed Handybot as a specialized AI assistant focused on handyman work, not a generic chatbot. The AI understands home repair categories such as plumbing, electrical basics, furniture fixes, appliance issues, wall repairs, door problems, and general maintenance. This allows Handybot to provide more directed, practical, and relevant answers."
+          ],
+          "video": "/assets/videos/handybot-agent.mp4",
+          "poster": "/assets/handybot-main.png",
+          "accent": "media-accent-orange",
+          "reverse": false
+        },
+        {
+          "title": "Location-Personalized Guidance",
+          "paragraphs": [
+            "Handybot personalizes answers based on the user's location. This helps the system provide more useful recommendations, including relevant repair approaches, nearby support options, and technician availability when professional help is needed."
+          ],
+          "video": "/assets/videos/handybot-location.mp4",
+          "poster": "/assets/handybot-main.png",
+          "accent": "media-accent-purple",
+          "reverse": true
+        },
+        {
+          "title": "Step-by-Step Home Repair Guidance",
+          "paragraphs": [
+            "The AI breaks repair instructions into simple steps that less tech-savvy users can follow. Instead of overwhelming users with long explanations, Handybot gives clear actions, safety notes, tool suggestions, and progress-based guidance."
+          ],
+          "video": "/assets/videos/handybot-step-guidance.mp4",
+          "poster": "/assets/handybot-main.png",
+          "accent": "media-accent-blue",
+          "reverse": false
+        },
+        {
+          "title": "AI Escalation to Nearby Technicians",
+          "paragraphs": [
+            "When a user struggles with a task, gets stuck, or the repair requires professional support, Handybot recommends nearby technicians. The system helps move the user from self-help to expert support without leaving them confused or abandoned."
+          ],
+          "video": "/assets/videos/handybot-technicians.mp4",
+          "poster": "/assets/handybot-main.png",
+          "accent": "media-accent-purple",
+          "reverse": true
+        }
+      ]
+    },
+    "beforeAfter": {
+      "before": [
+        "Users searched online and received confusing or generic answers.",
+        "Handyman advice was not personalized to the user's issue or location.",
+        "Less tech-savvy users struggled to follow technical instructions.",
+        "Users did not know whether to fix the issue themselves or call a technician.",
+        "Finding the right nearby technician required separate searching and manual follow-up."
+      ],
+      "after": [
+        "Users can ask Handybot directly and receive handyman-specific answers.",
+        "AI identifies the repair category and gives focused guidance.",
+        "Instructions are broken into simple, step-by-step actions.",
+        "Location-based support makes recommendations more relevant.",
+        "If the user cannot complete the task, Handybot suggests nearby technicians and helps continue the repair journey."
+      ],
+      "metrics": [
+        {
+          "value": "3x",
+          "label": "Faster path from issue to solution"
+        },
+        {
+          "value": "70%",
+          "label": "Clearer repair guidance for users"
+        },
+        {
+          "value": "24/7",
+          "label": "AI handyman support"
+        },
+        {
+          "value": "50%",
+          "label": "Less dependency on generic search"
+        }
+      ]
+    }
+  },
+  "the-lawbook": {
+    "slug": "the-lawbook",
+    "hero": {
+      "title": "The Lawbook",
+      "description": "An AI-powered legal document analysis and matter intelligence platform."
+    },
+    "problem": {
+      "intro": "ProblemLegal teams spend a large amount of time reading long documents, checking for drafting mistakes, understanding case context, and preparing matter summaries. Important details can be buried across multiple files, making it difficult to quickly understand risk, probability, and next steps.",
+      "cards": [
+        {
+          "title": "Manual document review was time-consuming",
+          "description": "Lawyers and legal assistants had to read through long legal documents line by line to find errors, missing clauses, inconsistencies, and important obligations."
+        },
+        {
+          "title": "Legal mistakes were difficult to detect quickly",
+          "description": "Issues such as unclear wording, missing information, inconsistent names, conflicting clauses, or incomplete legal references could be missed during manual review."
+        },
+        {
+          "title": "Matter understanding took too long",
+          "description": "Before taking action, legal teams needed to understand the matter type, background, strengths, weaknesses, risks, and possible outcome direction."
+        },
+        {
+          "title": "Uploaded documents were hard to query",
+          "description": "Users had to manually search through documents to find answers. There was no simple way to ask questions and receive document-based answers instantly."
+        }
+      ]
+    },
+    "productBand": {
+      "type": "desktop",
+      "image": "/assets/lawbook-main.png"
+    },
+    "solution": {
+      "rows": [
+        {
+          "title": "Document Checker & Legal Mistake Finder",
+          "paragraphs": [
+            "Upview built an AI document checker that reviews uploaded legal documents and highlights potential issues. The system can help identify missing details, inconsistent party names, unclear clauses, incomplete sections, conflicting statements, and possible drafting mistakes. This gives legal teams a faster first layer of review before deeper human analysis."
+          ],
+          "video": "/assets/videos/lawbook-document-checker.mp4",
+          "poster": "/assets/lawbook-main.png",
+          "accent": "media-accent-purple",
+          "reverse": false
+        },
+        {
+          "title": "Matter Prediction Screen",
+          "paragraphs": [
+            "LawBook includes an AI-powered matter prediction screen that helps users understand what type of legal matter they are dealing with. Based on uploaded documents and case information, the system can suggest matter categories, possible risk levels, expected complexity, and the likely direction of the case or legal process."
+          ],
+          "video": "/assets/videos/lawbook-matter-prediction.mp4",
+          "poster": "/assets/lawbook-main.png",
+          "accent": "media-accent-orange",
+          "reverse": true
+        },
+        {
+          "title": "Matter-Based AI Summary & Probability Checker",
+          "paragraphs": [
+            "The platform generates matter-specific summaries that explain the key facts, important legal points, risks, strengths, weaknesses, and possible next steps. The AI probability checker helps users understand the likelihood of certain outcomes based on available matter data, making case review more structured and decision-friendly."
+          ],
+          "video": "/assets/videos/lawbook-summary-probability.mp4",
+          "poster": "/assets/lawbook-main.png",
+          "accent": "media-accent-blue",
+          "reverse": false
+        },
+        {
+          "title": "AI Chatbot For Documentation & Q&A",
+          "paragraphs": [
+            "LawBook includes an AI chatbot that allows users to ask questions directly from uploaded legal documents. Instead of manually searching through files, users can ask questions such as \"What are the key obligations?\", \"What dates are important?\", or \"What risks are mentioned?\" and receive document-based answers."
+          ],
+          "video": "/assets/videos/lawbook-chatbot.mp4",
+          "poster": "/assets/lawbook-main.png",
+          "accent": "media-accent-purple",
+          "reverse": true
+        }
+      ]
+    },
+    "beforeAfter": {
+      "before": [
+        "Legal teams manually reviewed long documents for errors and missing details.",
+        "Matter understanding required reading multiple files and preparing notes manually.",
+        "Case probability and risk assessment depended heavily on scattered information.",
+        "Users had to search documents manually to find answers.",
+        "Legal assistants spent significant time creating summaries and extracting key points."
+      ],
+      "after": [
+        "AI checks documents and highlights potential legal mistakes faster.",
+        "Matter prediction helps users understand the type, direction, and complexity of a case.",
+        "AI summaries explain key facts, risks, strengths, weaknesses, and next steps.",
+        "Probability checking supports faster matter evaluation and decision-making.",
+        "Users can ask questions from uploaded documents through an AI chatbot."
+      ],
+      "metrics": [
+        {
+          "value": "3x",
+          "label": "Faster legal document review"
+        },
+        {
+          "value": "70%",
+          "label": "Less manual summary prep"
+        },
+        {
+          "value": "60%",
+          "label": "Faster matter understanding"
+        },
+        {
+          "value": "3x",
+          "label": "Faster AI Q&A support"
+        }
+      ]
+    }
+  },
+  "cpm-performance-dashboard": {
+    "slug": "cpm-performance-dashboard",
+    "hero": {
+      "title": "CPM Performance Dashboard",
+      "description": "An AI-powered performance dashboard that turns reports, documents, and business data into real-time answers."
+    },
+    "problem": {
+      "intro": "ProblemBefore CPM Performance Dashboard, users had access to reports and documents, but finding the right answer still required manual searching, reading, comparing, and preparing visuals. Dashboards were useful, but they were often static and difficult to customize without technical support.",
+      "cards": [
+        {
+          "title": "Reports were available, but answers were hard to find",
+          "description": "Users had to manually search through existing reports, documents, and dashboards to understand what was happening."
+        },
+        {
+          "title": "Chart and report creation took too much time",
+          "description": "Creating graphs, charts, summaries, and performance reports required manual effort or support from data teams."
+        },
+        {
+          "title": "Dashboards were not easy to change",
+          "description": "Once a dashboard widget was created, users could not easily update it with a simple request or build new insights from previous work."
+        },
+        {
+          "title": "Insight history was disconnected",
+          "description": "Generated chats, reports, charts, and dashboard changes were difficult to revisit, continue, or improve over time."
+        }
+      ]
+    },
+    "productBand": {
+      "type": "desktop",
+      "image": "/assets/cpm-main.png"
+    },
+    "solution": {
+      "rows": [
+        {
+          "title": "AI Chat Over Reports & Documents",
+          "paragraphs": [
+            "Upview built an AI chatbot that can answer user questions using the reports, documents, and data already available inside the system. Instead of manually opening multiple files or dashboards, users can ask natural-language questions and receive personalized answers based on their accessible data.",
+            "The AI understands the user's context, retrieves relevant information from existing sources, and presents clear answers with business-friendly explanations."
+          ],
+          "video": "/assets/videos/cpm-chat-reports.mp4",
+          "poster": "/assets/cpm-main.png",
+          "accent": "media-accent-purple",
+          "reverse": false
+        },
+        {
+          "title": "AI Chart, Graph & Report Generation",
+          "paragraphs": [
+            "The platform allows users to generate charts, graphs, and reports directly through prompts. Users can ask the AI to create a visual from available data, compare metrics, summarize performance, or prepare a report without manually building it from scratch.",
+            "Once generated, the output can be saved and added as a dashboard widget, allowing the insight to become part of a real-time monitoring experience."
+          ],
+          "video": "/assets/videos/cpm-chart-generation.mp4",
+          "poster": "/assets/cpm-main.png",
+          "accent": "media-accent-blue",
+          "reverse": true
+        },
+        {
+          "title": "AI-Powered Widget Editing & Insight Continuity",
+          "paragraphs": [
+            "Upview added an AI workflow that lets users update existing dashboard widgets using simple prompts. Instead of rebuilding a widget manually, users can select a widget and ask the AI to change the metric, filter, date range, grouping, chart type, or explanation.",
+            "The platform also keeps chat and generated report history, allowing users to revisit previous insights and continue building on them. This creates a continuous insight workflow where every question, report, chart, and widget can evolve over time."
+          ],
+          "video": "/assets/videos/cpm-widget-editing.mp4",
+          "poster": "/assets/cpm-main.png",
+          "accent": "media-accent-orange",
+          "reverse": false
+        }
+      ]
+    },
+    "beforeAfter": {
+      "before": [
+        "Users manually searched reports and documents for answers.",
+        "Charts and summaries had to be prepared separately.",
+        "Dashboards were static and difficult to customize.",
+        "Changing a widget required manual configuration or technical help.",
+        "Past chats, generated reports, and insights were not easy to continue from."
+      ],
+      "after": [
+        "Users can ask questions and receive AI answers from existing reports and documents.",
+        "AI can generate graphs, charts, and reports from business data.",
+        "Generated visuals can be added as live dashboard widgets.",
+        "Users can update widgets using simple prompts.",
+        "Chat history and report history help users continue building insights over time."
+      ],
+      "metrics": [
+        {
+          "value": "3x",
+          "label": "Faster performance insight discovery"
+        },
+        {
+          "value": "60%",
+          "label": "Less manual report preparation"
+        },
+        {
+          "value": "80%",
+          "label": "Faster dashboard customization"
+        },
+        {
+          "value": "2x",
+          "label": "Faster AI access to reports and more"
+        }
+      ]
+    }
+  },
+  "upview-builder": {
+    "slug": "upview-builder",
+    "hero": {
+      "title": "Upview Builder",
+      "description": "A conversational AI prototyping tool."
+    },
+    "problem": {
+      "intro": "Problem: Teams struggled to rapidly prototype conversational AI interfaces without heavy development overhead.",
+      "cards": [
+        {
+          "title": "Slow iteration cycles",
+          "description": "Building prototypes required writing code for every small change, slowing down feedback loops."
+        },
+        {
+          "title": "Disconnected workflows",
+          "description": "Designers and developers worked in silos, leading to misinterpretations of conversational flows."
+        }
+      ]
+    },
+    "productBand": {
+      "type": "desktop",
+      "image": "/assets/gallery-upview-builder.png"
+    },
+    "solution": {
+      "rows": [
+        {
+          "title": "Visual Workflow Builder",
+          "paragraphs": [
+            "Upview Builder provides a drag-and-drop interface allowing teams to design and test AI chat flows instantly.",
+            "This empowers non-technical users to iterate on conversational logic quickly."
+          ],
+          "video": "",
+          "poster": "/assets/gallery-upview-builder.png",
+          "accent": "media-accent-orange",
+          "reverse": false
+        }
+      ]
+    },
+    "beforeAfter": {
+      "before": [
+        "Weeks spent coding initial prototypes.",
+        "Hard to test and gather user feedback early."
+      ],
+      "after": [
+        "Prototypes built and tested in hours.",
+        "Instant preview of AI conversational flows."
+      ],
+      "metrics": [
+        {
+          "value": "10x",
+          "label": "Faster Prototyping"
+        },
+        {
+          "value": "80%",
+          "label": "Less Development Overhead"
+        },
+        {
+          "value": "24/7",
+          "label": "Instant Preview"
+        }
+      ]
+    }
+  }
+}
