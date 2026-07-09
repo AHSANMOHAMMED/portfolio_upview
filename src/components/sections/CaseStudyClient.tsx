@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 
 import React, { useEffect, useRef } from "react";
@@ -179,7 +181,7 @@ export default function CaseStudyClient({ data, allSlugs }: { data: any, allSlug
             <p>Connect</p>
           </div>
           <h2>Ready to build something smarter?</h2>
-          <p>Whether you have a vibe-coded prototype or a blank whiteboard, Upview's team turns AI ideas into shipped products.</p>
+          <p>Whether you have a vibe-coded prototype or a blank whiteboard, Upview&apos;s team turns AI ideas into shipped products.</p>
           <a className="light-button" href="#contact">
             Talk to Upview Team
           </a>

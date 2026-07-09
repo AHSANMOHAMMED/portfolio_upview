@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function FooterSection() {
   return (
     <>
@@ -17,13 +19,13 @@ export default function FooterSection() {
         <div className="footer-top">
           <img className="brand-logo brand-logo-large" src="/assets/footer-logo.svg" alt="Upview" />
           <nav className="footer-nav" aria-label="Case study navigation">
-            <span className="footer-nav-item"><a href="/oral-connect">Oral Connect</a><span className="footer-divider" aria-hidden="true"></span></span>
-            <span className="footer-nav-item"><a href="/leap-strategy-partner">LEAP</a><span className="footer-divider" aria-hidden="true"></span></span>
-            <span className="footer-nav-item"><a href="/furfield">FURFIELD</a><span className="footer-divider" aria-hidden="true"></span></span>
-            <span className="footer-nav-item"><a href="/kompete">Kompete</a><span className="footer-divider" aria-hidden="true"></span></span>
-            <span className="footer-nav-item"><a href="/cpm-performance-dashboard">Strategizer</a><span className="footer-divider" aria-hidden="true"></span></span>
-            <span className="footer-nav-item"><a href="/handybot">Handybot</a><span className="footer-divider" aria-hidden="true"></span></span>
-            <span className="footer-nav-item"><a href="/the-lawbook">The Lawbook</a></span>
+            <span className="footer-nav-item"><Link href="/oral-connect">Oral Connect</Link><span className="footer-divider" aria-hidden="true"></span></span>
+            <span className="footer-nav-item"><Link href="/leap-strategy-partner">LEAP</Link><span className="footer-divider" aria-hidden="true"></span></span>
+            <span className="footer-nav-item"><Link href="/furfield">FURFIELD</Link><span className="footer-divider" aria-hidden="true"></span></span>
+            <span className="footer-nav-item"><Link href="/kompete">Kompete</Link><span className="footer-divider" aria-hidden="true"></span></span>
+            <span className="footer-nav-item"><Link href="/cpm-performance-dashboard">Strategizer</Link><span className="footer-divider" aria-hidden="true"></span></span>
+            <span className="footer-nav-item"><Link href="/handybot">Handybot</Link><span className="footer-divider" aria-hidden="true"></span></span>
+            <span className="footer-nav-item"><Link href="/the-lawbook">The Lawbook</Link></span>
           </nav>
         </div>
         <div className="footer-bottom">
